@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="796ef29a-8dc2-4be9-b4e4-db1a6efa87c9" name="Default Changelist" comment="" />
+    <list default="true" id="796ef29a-8dc2-4be9-b4e4-db1a6efa87c9" name="Default Changelist" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +11,11 @@
     <option name="NEW_BASE" value="main" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/AdrianRubio" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
