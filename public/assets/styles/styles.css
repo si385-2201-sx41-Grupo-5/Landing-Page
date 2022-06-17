@@ -10,3 +10,10 @@
     border-radius: 14%;
     font-weight: bold;
 }
+.presentacion {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff7A00;
+}
