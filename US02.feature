@@ -1,5 +1,6 @@
-Feature:    Interactuar a las publicaciones
-Scenario: Quiero interactuar con las publicaciones de otros usuarios
-    Given "el usuario encuentra una publicación en el foro"
-    Then   "le de al botón de “Reaccionar”,“Comentar” o “Guardar” según la interacción que desee realizar"
-    When   "podrá reaccionar, comentar o guardar la publicación de otros usuarios"
+Feature: Reaccionar a las publicaciones
+Scenario: El usuario reacciona publicaciones en el foro 
+    Given el usuario se encuentra en el apartado del Foro
+    And se encuentre con una publicacion
+    When el usuario hace click al icono “Reaccionar”
+    Then la aplicación aumentará el contador de reacciones de la publicación

@@ -1,5 +1,11 @@
-Feature: Calificar un curso
-Scenario: Quiero calificar un curso cuando lo haya concluido en más de la mitad del contenido del curso.
-    Given "el usuario está llevando un curso de su interés"
-    Then   "haya completado más de la mitad del contenido del curso"
-    When   "la aplicación le mostrará una ventana flotante donde le pedirá su valoración del curso"
+Feature: Registrarse como estudiante
+Scenario: El usuario quiere registrarse como estudiante
+    Given el usuario se encuentra en el apartado de Inicio
+    When el usuario hace click en el boton “Registrarse”
+    And ingrese los datos solicitados
+    And hace click en “Estudiante”
+    And verifique su cuenta
+    Then la aplicación le creara una cuenta como estudiante
+    
+
+    

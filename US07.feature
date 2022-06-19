@@ -1,5 +1,7 @@
-Feature: Certificarse con cursos virtuales
-Scenario: Necesito certificarme en cursos que complementen mis habilidades técnicas
-    Given "el usuario se encuentra llevando un curso"
-    Then   "logre finalizarlo y tenga una calificación aprobatoria en las múltiples pruebas y debe haber publicado su proyecto en la sección de fotos"
-    When   "se le brindará un certificado acreditándolo bajo el respaldo de Cibertec"
+Feature: Búsqueda de cursos
+Scenario: El usuario quiere buscar cursos en la libreria
+    Given el usuario se encuentra dentro del apartado “Librería” 
+    When el usuario hace click en la “barra de búsqueda”
+    And introduce el nombre del curso que busca 
+    And hace click en el boton “Buscar”
+    Then la aplicación le muestra los resultados de la búsqueda

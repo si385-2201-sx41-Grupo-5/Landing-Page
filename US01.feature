@@ -1,5 +1,8 @@
 Feature: Publicar tareas en el foro
-Scenario: Quiero publicar contenido en el foro
-    Given "el usuario buscará la opción de Publicar"
-    Then   "le de al botón “+” "
-    When   "se desplegará un apartado para detallar y adjuntar el contenido a publicar"
+    Scenario: El usuario publica una tarea en el foro 
+        Given el usuario se encuentra en el apartado del Foro
+        When el usuario hace click en el boton “+”
+        And la aplicación le muestra un formulario para que ingrese los datos
+        And el usuario completa el formulario con los datos solicitados
+        And hace click en el boton Publicar
+        Then la aplicación le muestra el mensaje "La tarea fue publicada de forma satisfactoria"

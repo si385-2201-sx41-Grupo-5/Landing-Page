@@ -1,5 +1,5 @@
-Feature: Llevar cursos virtuales
-Scenario: Necesito adquirir o  complementar mis conocimientos mediante cursos
-    Given "el usuario se encuentra en el apartado de “Librería” "
-    Then   "seleccione un curso y presione en “Iniciar curso"
-    When   "se le aperturará el curso elegido con las 3 primeras unidades como parte de la prueba de ese curso"
+Feature: Recibir notificaciones de  calificaciones
+Scenario: El usuario quiere recibir notificaciones de sus calificaciones
+    Given el usuario se encuentra en el apartado del Foro
+    When el usuario hace click en el icono “Campana”
+    Then la aplicación le muestra sus publicaciones calificadas

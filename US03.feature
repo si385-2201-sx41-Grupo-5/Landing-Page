@@ -1,5 +1,8 @@
-Feature:    Publicaciones destacadas
-Scenario: Quiero ver publicaciones destacadas acerca de un tema o curso dentro del foro
-    Given "el usuario quiere ver las publicaciones destacadas de trabajos subidas por otros usuarios referido a un tema o curso"
-    Then   "ingrese al aplicativo o presione el ícono de “foro” "
-    When   "el aplicativo le mostrará el listado de los trabajos con más reacciones y comentarios que están relacionados con el tema especificado"
+Feature: Comentar las publicaciones
+Scenario: El usuario comenta publicaciones en el foro 
+    Given el usuario se encuentra en el apartado del Foro
+    And se encuentre con una publicacion
+    Then el usuario hace click al icono “Comentar”
+    And escribe su mensaje
+    And hace click en el boton “enviar”
+    When la aplicación mostrara su comentario en la publicacion

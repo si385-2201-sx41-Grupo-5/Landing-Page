@@ -1,5 +1,8 @@
-Feature: Bandeja de notificaciones
-Scenario: Quiero recibir notificaciones del aplicativo y que se alisten en mi bandeja de notificaciones
-    Given "el usuario se encuentra en el apartado “foro” "
-    Then   "seleccione el icono de “Campana” "
-    When   "podrá visualizar la lista de notificaciones recibidas hasta ese instante"
+Feature: Comunicarse con los instructores
+Scenario: El usuario quiere comunicarse con los instructores 
+    Given el usuario se encuentra en el apartado del Foro
+    When el usuario hace click en el boton “Buzón”
+    And selecciona a su instructor
+    And escribe sus dudas
+    And hace click en el boton “enviar”
+    Then la aplicación le muestra el mensaje "Mensaje enviado con éxito"

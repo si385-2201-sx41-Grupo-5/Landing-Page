@@ -1,5 +1,9 @@
-Feature: Chatear con otros usuarios 
-Scenario: Quiero comunicarme con otros usuarios dentro del aplicativo.
-    Given "el usuario se encuentra en el apartado “foro” "
-    Then   "seleccione el icono de “cuadro de texto” (Buzón) le aparecerá su chat personal con todas las personas que conversó anteriormente"
-    When   "podrá seleccionar el chat con la persona que quiere chatear y empezará la comunicación"
+Feature: Calificar tareas publicadas en el foro
+Scenario: El usuario quiere calificar tareas publicadas en el foro 
+    Given el usuario se encuentra en el apartado del Foro
+    And  se encuentre con una publicacion
+    Then el usuario hace click en el boton “calificar”
+    And asigna un puntaje
+    And agrega un comentario sobre el trabajo
+    And hace click en el boton “calificar”
+    When la aplicación le muestra el mensaje "La tarea calificada correctamente"   
