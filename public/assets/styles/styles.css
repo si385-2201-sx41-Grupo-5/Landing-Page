@@ -29,3 +29,45 @@
     font-family: "Roboto", sans-serif;
     font-size: larger;
 }
+
+#nosotros {
+    background-image: url('/Landing-Page/public/assets/images/Nosotros_page.JPG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nosotros_texto {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#nosotros_texto_descripcion {
+    padding: 14%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.lado_izquierdo {
+    background-image: url('/Landing-Page/public/assets/images/fondo_titulo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.app_store {
+    padding-bottom: 5%;
+}
+
+.metodologia_titulo {
+    text-align: center;
+    font-size: 70px;
+}
+
+.metodologia_unidad {
+    width: 15%;
+    border-color: white;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
