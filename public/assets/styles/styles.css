@@ -71,3 +71,89 @@
     border: 1px solid #e5e5e5;
     text-align: center;
 }
+
+.card-title {
+    font-weight: bold;
+}
+
+.metodologia_descripcion {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+}
+
+.menu_list {
+    position: fixed;
+    z-index: 1030;
+}
+
+.form-control {
+    background-color: #FFB85D;
+}
+
+.unete_descripcion {
+    background-color: #FFB85D;
+}
+
+.unete_boton {
+    background-color: #FFB85D;
+    color: black;
+    margin-left: 40%;
+    font-size: 200%;
+    /* margin-right: 10%; */
+}
+
+.unete_img {
+    padding-left: 35%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-left: 1%;
+    font-size: 180%;
+}
+
+.menu_titulos {
+    padding-left: 74%;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}
+
+.footer {
+    background-color: black;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.footer_cols {
+    text-align: center;
+}
+
+.footer_col1 {
+    padding-top: 25%;
+    color: white;
+}
+
+.footer_text {
+    color: white;
+    font-weight: 100;
+}
+
+.footer_logos {
+    width: 45px;
+    height: 50px;
+}
+
+.footer_text_tercera {
+    color: white;
+    text-align: left;
+    font-weight: 100;
+}
